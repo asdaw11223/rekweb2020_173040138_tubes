@@ -1,0 +1,63 @@
+.card {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  border: none !important;
+  margin-bottom: 75px;
+}
+
+.card-header {
+  background-color: #ffffff;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.btn {
+  border-radius: 0;
+}
+
+.footer-login p a {
+  text-decoration: none;
+  color: #333333;
+}
+
+.footer-login p a {
+  text-decoration: none;
+  color: #333333;
+}
+
+.footer-login {
+  display: flex;
+  justify-content: space-between;
+}
+
+.login-plag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.login-plag img {
+  width: 125px;
+  padding-bottom: 25px;
+}
+
+.text-sign:hover {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer-login {
+    flex-direction: column;
+  }
+
+  .card {
+    margin-bottom: 100px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .login {
+    display: none;
+  }
+}
